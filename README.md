@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Github repo: [https://github.com:Mary2021/SunnysideLandingPage.git](https://github.com:Mary2021/SunnysideLandingPage.git)
-- Live URL: [https://mary2021.github.io/SunnysideLandingPage/](https://mary2021.github.io/SunnysideLandingPage/)
+- Github repo: [https://github.com:Mary2021/sunnyside-landing-page.git](https://github.com:Mary2021/sunnyside-landing-page.git)
+- Live URL: [https://mary2021.github.io/sunnyside-landing-page/](https://mary2021.github.io/sunnyside-landing-page/)
 
 ## My process
 
