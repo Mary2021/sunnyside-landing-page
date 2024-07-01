@@ -14,6 +14,8 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Read more of starting with Vite](#getting-started-with-vite)
+  - [Available Scripts](#available-scripts)
+  - [Deployment](#deployment)
 
 ## Overview
 My challenge was to build out Sunnyside agency landing page and get it looking as close to the design as possible. Designs could be found inside the `/design` folder and Style Guide in file style-guide.md.
@@ -104,9 +106,7 @@ Now the preview command will launch the server at http://localhost:8080.
 
 ### Deployment
 
-[https://vitejs.dev/guide/static-deploy.html#github-pages](https://vitejs.dev/guide/static-deploy.html#github-pages)
-
-Set base in vite.config.js:
+- Set base in vite.config.js:
 
 ```js
 export default defineConfig({
@@ -114,3 +114,4 @@ export default defineConfig({
   base: '/reponame/'
 })
 ```
+- Add workflow. Read more [https://vitejs.dev/guide/static-deploy.html#github-pages](https://vitejs.dev/guide/static-deploy.html#github-pages)
