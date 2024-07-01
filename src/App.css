@@ -1,0 +1,2189 @@
+@media only screen and (min-width: 22em) and (max-width: 24.5em)  {
+  .App {
+    background-image: url('./assets/images/mobile/image-header.jpg');
+    background-size:  100%;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .Logo {
+    position: absolute !important;      
+    top: 4vh; 
+    left: 7vw;
+  }
+
+  .MenuIcon {
+    position: absolute !important;
+    top: 4vh; 
+    right: 7vw;
+  } 
+
+  div.hidden {
+    visibility: hidden;
+  }
+  div.visible {
+    visibility:visible;
+  }
+
+  .arrow-up {
+    position: absolute !important;
+    top: 12.5vh;
+    left: 86.5vw;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid hsl(0, 0%, 100%);
+  }
+
+  .Menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    top: 15vh;
+    height: 38vh;
+    width: 85%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 7vw;
+    align-items:  center;
+  }
+
+  .LinkContainer {
+    margin-top: 4vh;
+  }
+
+  .Menu a {
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 30px;
+    background-color: hsl(51, 100%, 49%);
+    color: black;
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Hero {
+    position: relative;
+    justify-content: center;
+    top: 20vh;
+  }
+
+  .Hero h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+  }
+
+  .Main {
+    position: relative;
+    top: 1vh;
+  }
+
+  .Services{
+    position: relative;
+    top: 33vh;
+    color: hsl(167, 40%, 24%);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .CardContainer {
+    height: 45vh;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin: 10vw;
+    margin-bottom: 0%;
+  }
+
+  .ServiceCardText {
+    margin: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset:0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+  }
+
+  .ImageCard {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .ImageContainer {
+    background-size: 190vw 70vh; 
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .SmallServiceCardContainer {
+    position: relative;
+    top: 20vh;
+    text-align: center;
+  }
+
+  .SmallServiceCardHeading {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 2vh;
+  }
+
+  .SmallServiceCardText {
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .TestimonialContainer {
+    position: relative;
+    top: 35vh;
+    color: hsl(167, 40%, 24%);
+    margin: 10px;
+  }
+
+  .TestimonialHeading {
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    color:lightgrey;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 15vh;
+    display: block;
+  }
+    
+  .TestimonialCard {
+    padding-bottom: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+    padding-bottom: 2vh;
+  }
+
+  .TestemonialText {
+    padding-bottom: 2vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+    padding-bottom: 2vh;
+  }
+  
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    top: 55vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterContainer {
+    position: relative;
+    top: 50vh;
+    width: 100%;
+    height: 40vh;
+    background-color: hsl(167, 40%, 70%);
+    text-align: center;
+    place-items: center;
+  }
+
+  .FooterLogo {
+    display: block;
+    margin:auto;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    padding: 10px;
+  }
+  
+  .FooterMenu {
+    position: relative;
+    top: 5vh;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    padding: 10px;
+    margin-top: 0%;
+    justify-content: center;
+  }
+    
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+  }
+    
+  .Icons {
+    position: relative;
+    top: 10vh;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    color:hsl(167, 40%, 24%);
+    padding: 10px;
+  }
+
+  .Attribution {
+    position: relative;
+    top: 12vh;
+    display: inline-block;
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 25em) and (max-width: 35.5em)  {
+  .App {
+    background-image: url('./assets/images/mobile/image-header.jpg');
+    background-size:  100%;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .Logo {
+    position: absolute !important;      
+    top: 4vh; 
+    left: 7vw;
+  }
+
+  .MenuIcon {
+    position: absolute !important;
+    top: 4vh; 
+    right: 7vw;
+  } 
+
+  div.hidden {
+    visibility: hidden;
+  }
+  div.visible {
+    visibility:visible;
+  }
+
+  .arrow-up {
+    position: absolute !important;
+    top: 12.5vh;
+    left: 86.5vw;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid hsl(0, 0%, 100%);
+  }
+
+  .Menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    top: 15vh;
+    height: 38vh;
+    width: 85%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 7vw;
+    align-items:  center;
+  }
+
+  .LinkContainer {
+    margin-top: 4vh;
+  }
+
+  .Menu a {
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 30px;
+    background-color: hsl(51, 100%, 49%);
+    color: black;
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Hero {
+    position: relative;
+    justify-content: center;
+    top: 30vh;
+    padding-inline: 2vh;
+  }
+
+  .Hero h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+  }
+
+  .Main {
+    position: relative;
+    top: 1vh;
+  }
+
+  .Services{
+    position: relative;
+    top: 33vh;
+    color: hsl(167, 40%, 24%);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .CardContainer {
+    height: 45vh;
+  }  
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin: 10vw;
+    margin-bottom: 0%;
+  }
+
+  .ServiceCardText {
+    margin: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset:0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+  }
+
+  .ImageCard {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .ImageContainer {
+    background-size: 190vw 70vh; 
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .SmallServiceCardContainer {
+    position: relative;
+    top: 20vh;
+    text-align: center;
+  }
+
+  .SmallServiceCardHeading {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 2vh;
+  }
+
+  .SmallServiceCardText {
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .TestimonialContainer {
+    position: relative;
+    top: 35vh;
+    color: hsl(167, 40%, 24%);
+    margin: 10px;
+  }
+
+  .TestimonialHeading {
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    color:lightgrey;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 15vh;
+    display: block;
+  }
+    
+  .TestimonialCard {
+    padding-bottom: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+    padding-bottom: 2vh;
+  }
+
+  .TestemonialText {
+    padding-bottom: 2vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+    padding-bottom: 2vh;
+  }
+  
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    top: 55vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterContainer {
+    position: relative;
+    top: 50vh;
+    width: 100%;
+    height: 40vh;
+    background-color: hsl(167, 40%, 70%);
+    text-align: center;
+    place-items: center;
+  }
+
+  .FooterLogo {
+    display: block;
+    margin:auto;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    padding: 10px;
+  }
+  
+  .FooterMenu {
+    position: relative;
+    top: 5vh;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    padding: 10px;
+    margin-top: 0%;
+    justify-content: center;
+  }
+    
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+  }
+    
+  .Icons {
+    position: relative;
+    top: 10vh;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    color:hsl(167, 40%, 24%);
+    padding: 10px;
+  }
+
+  .Attribution {
+    position: relative;
+    top: 12vh;
+    display: inline-block;
+    font-size: small;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 36em) and (max-width: 46.5em) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+  }
+
+  .headerFlexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    background-image: url('./assets/images/desktop/image-header.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 14em;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 3.3vh; 
+    left: 2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    top: 1vh; 
+    right: 0.78vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Menu a {
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: none;
+    padding: 1vh;
+    padding-inline: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Menu button:active {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(209, 97%, 76%);
+    cursor: pointer;
+  }
+
+  .Hero h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+    padding-top: 2em;;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+  }
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    width: 100%;
+  }
+
+  .Services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+    width: 100%;
+  }
+
+  div .CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-size: 1em;
+    font-family: 'Fraunces', serif;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
+  .ServiceCardText {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: 'Fraunces', serif;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-size: 0.7em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-size: 0.6em;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+    padding-left: 2vh;
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+  }
+
+  .ImageCard {
+    width: 50vw;
+  }
+
+  .ImageContainer {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 30vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-inline: 12%;
+  }
+
+  .SmallServiceCardHeading {
+    font-family: 'Fraunces', serif;
+    font-size: 1em;
+  }
+
+  .SmallServiceCardText {
+    font-size: 0.7em;
+  }
+
+  .TestimonialContainer {
+    display: grid;
+    place-content: center;
+    width: 100%;
+  }
+
+  .TestimonialHeader {
+    position: relative;
+    text-align: center;
+    top: 4vh;
+    color:lightgrey;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 6vh;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(167, 40%, 24%);
+    width: 100%;
+  }
+  
+  .TestimonialCard {
+    padding: 2vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+    width: 80%;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+  }
+          
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .FooterBackground {
+    background: hsl(167, 40%, 70%);
+    width: 100%;
+    height:auto; 
+  }
+
+  .FooterLogoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2em;
+  }
+
+  .FooterLogo {
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    place-content: center;
+  }
+    
+  .FooterMenu {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+  }
+  .FooterMenuLink:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  .FooterIconContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 3em);
+    place-content: center;
+  }
+    
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+
+  .Icons img:active {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+
+  .AttributionContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
+    padding-bottom: 2em;
+  }
+
+  .Attribution {
+    font-size: small;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 36em) and (max-width: 46.5em) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+  }
+
+  .headerFlexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    background-image: url('./assets/images/desktop/image-header.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 19em;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 5.25vh; 
+    left: 2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    top: 1vh; 
+    right: 0.78vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Menu a {
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: none;
+    padding: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Menu button:active {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(209, 97%, 76%);
+    cursor: pointer;
+  }
+
+  .Hero h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+    padding-top: 2em;;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+  }
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .Services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+  }
+
+  .CardContainer {
+    margin-block: 0.5em;
+    margin-inline: 0.5em;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin-right: 15vh;
+  }
+
+  .ServiceCardText {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+  }
+
+  .ImageCard {
+    width: 50vw;
+  }
+
+  .ImageContainer {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 90vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .SmallServiceCardContainer {
+    margin: -0.5em;
+  }
+
+  .SmallServiceCardHeading {
+    font-family: 'Fraunces', serif;
+  }
+
+  .TestimonialContainer {
+    display: grid;
+    place-content: center;
+  }
+
+  .TestimonialHeader {
+    position: relative;
+    text-align: center;
+    top: 8vh;
+    color:lightgrey;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 10vh;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(167, 40%, 24%);
+  }
+  
+  .TestimonialCard {
+    padding: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+  }
+          
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .FooterBackground {
+    background: hsl(167, 40%, 70%);
+    width: 100%;
+    height:auto; 
+  }
+
+  .FooterLogoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2em;
+  }
+
+  .FooterLogo {
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    place-content: center;
+  }
+    
+  .FooterMenu {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+  }
+  .FooterMenuLink:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  .FooterIconContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 3em);
+    place-content: center;
+  }
+    
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+
+  .Icons img:active {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+
+  .AttributionContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
+    padding-bottom: 2em;
+  }
+
+  .Attribution {
+    font-size: small;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 47em) and (max-width: 66em) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .headerFlexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    background-image: url('./assets/images/desktop/image-header.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:16em;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 3.3vh; 
+    left: 2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    top: 1vh; 
+    right: 0.78vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Menu a {
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 2em;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: none;
+    padding: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Menu button:active {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(209, 97%, 76%);
+    cursor: pointer;
+  }
+
+  .Hero h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh;
+  }
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+  }
+
+  .Services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+  }
+
+  .CardContainer {
+    margin-block: 0.5em;
+    margin-inline: 1em;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-size: 1.3em;
+    font-family: 'Fraunces', serif;
+    margin-right: 5vh;
+  }
+
+  .ServiceCardText {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+  }
+
+  .ImageCard {
+    width: 50vw;
+  }
+
+  .ImageContainer {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 30vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .SmallServiceCardContainer {
+    margin: -0.5em;
+  }
+
+  .SmallServiceCardHeading {
+    font-family: 'Fraunces', serif;
+    font-size: 1em;
+  }
+
+  .TestimonialContainer {
+    display: grid;
+    place-content: center;
+  }
+
+  .TestimonialHeader {
+    position: relative;
+    text-align: center;
+    top: 8vh;
+    color:lightgrey;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 10vh;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(167, 40%, 24%);
+  }
+  
+  .TestimonialCard {
+    padding: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+  }
+          
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .FooterBackground {
+    background: hsl(167, 40%, 70%);
+    width: 100%;
+    height:auto; 
+  }
+
+  .FooterLogoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2em;
+  }
+
+  .FooterLogo {
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    place-content: center;
+  }
+    
+  .FooterMenu {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+  }
+
+  .FooterMenuLink:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  .FooterIconContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 3em);
+    place-content: center;
+  }
+    
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+
+  .Icons img:active {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+
+  .AttributionContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
+    padding-bottom: 2em;
+  }
+
+  .Attribution {
+    font-size: small;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 47em) and (max-width: 66em) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .headerFlexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    background-image: url('./assets/images/desktop/image-header.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 18em;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 5.25vh; 
+    left: 2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    top: 1vh; 
+    right: 0.78vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Menu a {
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 2em;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: none;
+    padding: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Menu button:active {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(209, 97%, 76%);
+    cursor: pointer;
+  }
+
+  .Hero h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8vh;
+  }
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+  }
+
+  .Services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+  }
+
+  .CardContainer {
+    margin-block: 0.5em;
+    margin-inline: 1em;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin-right: 5vh;
+  }
+
+  .ServiceCardText {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+  }
+
+  .ImageCard {
+    width: 50vw;
+  }
+
+  .ImageContainer {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 60vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .SmallServiceCardHeading {
+    font-family: 'Fraunces', serif;
+  }
+
+  .TestimonialContainer {
+    display: grid;
+    place-content: center;
+  }
+
+  .TestimonialHeader {
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    color:lightgrey;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 15vh;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(167, 40%, 24%);
+  }
+  
+  .TestimonialCard {
+    padding: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+  }
+          
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .FooterBackground {
+    background: hsl(167, 40%, 70%);
+    width: 100%;
+    height:auto; 
+  }
+
+  .FooterLogoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2em;
+  }
+
+  .FooterLogo {
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    place-content: center;
+  }
+    
+  .FooterMenu {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+  }
+  .FooterMenuLink:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  .FooterIconContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 3em);
+    place-content: center;
+  }
+    
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+
+  .Icons img:active {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+
+  .AttributionContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
+    padding-bottom: 2em;
+  }
+
+  .Attribution {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 67em) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .headerFlexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    background-image: url('./assets/images/desktop/image-header.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:20em;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 5.25vh; 
+    left: 2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    top: 1vh; 
+    right: 0.78vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Menu a {
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 2em;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: none;
+    padding: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Menu button:active {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(209, 97%, 76%);
+    cursor: pointer;
+  }
+
+  .Hero h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15vh;
+  }
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+  }
+
+  .Services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+  }
+
+  .CardContainer {
+    margin: 2em;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin-right: 15vh;
+  }
+
+  .ServiceCardText {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+  }
+
+  .ImageCard {
+    width: 49.35vw;
+  }
+
+  .ImageContainer {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 60vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .SmallServiceCardHeading {
+    font-family: 'Fraunces', serif;
+  }
+
+  .TestimonialContainer {
+    display: grid;
+    place-content: center;
+  }
+
+  .TestimonialHeader {
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    color:lightgrey;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 15vh;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(167, 40%, 24%);
+  }
+  
+  .TestimonialCard {
+    padding: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+  }
+          
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .FooterBackground {
+    background: hsl(167, 40%, 70%);
+    width: 100%;
+    height:auto; 
+  }
+
+  .FooterLogoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2em;
+  }
+
+  .FooterLogo {
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    place-content: center;
+  }
+    
+  .FooterMenu {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+  }
+  .FooterMenuLink:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  .FooterIconContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 3em);
+    place-content: center;
+  }
+    
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+
+  .Icons img:active {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+
+  .AttributionContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
+    padding-bottom: 2em;
+  }
+
+  .Attribution {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  p {
+    font-size: 1em !important;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .headerFlexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+    background-image: url('./assets/images/desktop/image-header.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:29em;
+  }
+
+  .Logo {
+    position: absolute;
+    top: 5.25vh; 
+    left: 2vw;
+  }
+
+  .Menu {
+    position: absolute;
+    top: 1vh; 
+    right: 0.78vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Menu a {
+    color: hsl(0, 0%, 100%);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .Menu button {
+    border-radius: 2em;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border: none;
+    padding: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.5em;
+    font-family: 'Fraunces', serif;
+  }
+
+  .Menu button:active {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(209, 97%, 76%);
+    cursor: pointer;
+  }
+
+  .Hero h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5vw;
+  }
+  
+  .Hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15vh;
+  }
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:center;
+  }
+
+  .Services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+  }
+
+  .CardContainer {
+    margin-inline: 5em;
+  }
+
+  .ServiceCardHeading {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin-right: 15vh;
+  }
+
+  .ServiceCardText {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .ServiceCardLink {
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 0.4px;
+    text-decoration-color: hsl(51, 100%, 90%);
+  }
+
+  .ServiceCardLink:active {
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+  }
+
+  .ImageCard {
+    width: 49.35vw;
+  }
+
+  .ImageContainer {
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 80vh;
+    align-items: center;
+    padding-top: 50%;
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .SmallServiceCardHeading {
+    font-family: 'Fraunces', serif;
+  }
+
+  .TestimonialContainer {
+    display: grid;
+    place-content: center;
+  }
+
+  .TestimonialHeader {
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    color:lightgrey;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .TestimonialCardContainer {
+    position: relative;
+    top: 15vh;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(167, 40%, 24%);
+  }
+  
+  .TestimonialCard {
+    padding: 4.5vh;
+    justify-content: center;
+  }
+  
+  .TestemonialImage {
+    border-radius: 50%;
+  }
+  
+  .TestemonialName {
+    font-family: 'Fraunces', serif;
+  }
+          
+  .TestemonialOccupation {
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .GalleryContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .FooterBackground {
+    background: hsl(167, 40%, 70%);
+    width: 100%;
+    height:auto; 
+  }
+
+  .FooterLogoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2em;
+  }
+
+  .FooterLogo {
+    filter: brightness(0.24) sepia(10%) saturate(40000%) hue-rotate(167deg) invert(20%) contrast(100%);
+    /* color: hsl(167, 40%, 24%);*/
+  }
+
+  .FooterMenuContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    place-content: center;
+  }
+    
+  .FooterMenu {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .FooterMenuLink {
+    color: hsl(168, 34%, 41%);
+  }
+  .FooterMenuLink:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+
+  .FooterIconContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 3em);
+    place-content: center;
+  }
+    
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:hsl(167, 40%, 24%);
+    padding: 20px;
+  }
+
+  .Icons img:active {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+
+  .AttributionContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
+    padding-bottom: 2em;
+  }
+
+  .Attribution {
+    font-size: 0.6em;
+  }
+}
