@@ -104,7 +104,7 @@ You may configure the port of the server by passing the --port flag as an argume
 
 Now the preview command will launch the server at http://localhost:8080.
 
-### Deployment
+## Deployment
 
 - Set base in vite.config.js:
 
